@@ -12,7 +12,7 @@ print("Tree of height: \(nTree.height), with \(nTree.count) elements (\(isBalanc
 // Sample enum type tree
 var chTree = TreeNodeEnumTraversal("TheQuickBrownFoxJumpsOvertheLazyDog".characters)
 
-// Pluggable traversals
+// Pluggable traversals 
 print("\(chTree)")
 chTree.traversalStrategy = LevelOrderTraversalStrategy.self
 print("\(chTree)")
