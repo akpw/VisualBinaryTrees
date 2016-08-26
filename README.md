@@ -42,7 +42,7 @@ $ cd VisualBinaryTrees
 $ open VisualBinaryTrees.playground -a Xcode-beta.app
 ```
 
-4) Optionally, you can also swift to the `VisualBinaryTreeApp` folder and open & run the included sample app:
+4) Optionally, you can also switch to the `VisualBinaryTreeApp` folder and open & run the included sample app:
 
 ```bash
 $ cd VisualBinaryTreeApp
