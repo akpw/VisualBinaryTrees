@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DrawingState Enum Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Enum/DrawingState" class="dashAnchor"></a>
+
+    <a title="DrawingState Enum Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (97% documented)
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      DrawingState Enum Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CoreGraphicsTreeRenderer.html">CoreGraphicsTreeRenderer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TreeDrawing.html">TreeDrawing</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TreeLayout.html">TreeLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TreeNodeRef.html">TreeNodeRef</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TreeViewController.html">TreeViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UIViewRenderer.html">UIViewRenderer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DrawingColors.html">DrawingColors</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DrawingSizes.html">DrawingSizes</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DrawingSizes/Grid.html">– Grid</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DrawingState.html">DrawingState</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/TreeNodeEnum.html">TreeNodeEnum</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/TreeNodeEnumTraversal.html">TreeNodeEnumTraversal</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGContext.html">CGContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/String.html">String</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/s:F16VisualBinaryTree10isBalanceduRxS_10BinaryTreerFxSS">isBalanced(_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/BinarySearchTree.html">BinarySearchTree</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/BinaryTree.html">BinaryTree</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DependencyInjectable.html">DependencyInjectable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/Drawable.html">Drawable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QuickLookableBinaryTree.html">QuickLookableBinaryTree</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/Renderer.html">Renderer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/TraversableBinaryTree.html">TraversableBinaryTree</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/TraversalStrategy.html">TraversalStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/TreeLayoutBuilder.html">TreeLayoutBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/TreeLayoutTopology.html">TreeLayoutTopology</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/TreeRenderer.html">TreeRenderer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/DefaultTreeDrawingConfig.html">DefaultTreeDrawingConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Grid.html">Grid</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/InOrderTraversalStrategy.html">InOrderTraversalStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/LevelOrderTraversalStrategy.html">LevelOrderTraversalStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/PostOrderTraversalStrategy.html">PostOrderTraversalStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/PreOrderTraversalStrategy.html">PreOrderTraversalStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Rectangle.html">Rectangle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SequenceHelper.html">SequenceHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TreeDrawingAttributes.html">TreeDrawingAttributes</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TreeLayoutBuilderKnuth.html">TreeLayoutBuilderKnuth</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TreeLayoutBuilderReingold.html">TreeLayoutBuilderReingold</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TreeLayoutBuilderWetherell.html">TreeLayoutBuilderWetherell</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TreeLayoutExtrasKey.html">TreeLayoutExtrasKey</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>DrawingState</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">DrawingState</span></code></pre>
+
+                </div>
+              </div>
+            <p>Drawing States</p>
+
+<ul>
+<li>ready:                ready for drawing</li>
+<li>drawingGrid:          drawing (optional) grid</li>
+<li>doneDrawingGrid:      done drawing (optional) grid</li>
+<li>drawingTreeNodes:     drawing tree nodes</li>
+<li>doneDrawingTreeNodes: done drawing tree nodes</li>
+<li>drawingTreeLines:     drawing tree lines</li>
+<li>doneDrawingTreeLines: done drawing tree lines</li>
+</ul>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO16VisualBinaryTree12DrawingState5readyFMS0_S0_"></a>
+                    <a name="//apple_ref/swift/Element/ready" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO16VisualBinaryTree12DrawingState5readyFMS0_S0_">ready</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">DrawingState</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO16VisualBinaryTree12DrawingState11drawingGridFMS0_FPS_8Renderer_S0_"></a>
+                    <a name="//apple_ref/swift/Element/drawingGrid" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO16VisualBinaryTree12DrawingState11drawingGridFMS0_FPS_8Renderer_S0_">drawingGrid</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">DrawingState</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO16VisualBinaryTree12DrawingState15doneDrawingGridFMS0_S0_"></a>
+                    <a name="//apple_ref/swift/Element/doneDrawingGrid" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO16VisualBinaryTree12DrawingState15doneDrawingGridFMS0_S0_">doneDrawingGrid</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">DrawingState</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO16VisualBinaryTree12DrawingState16drawingTreeNodesFMS0_FPS_8Renderer_S0_"></a>
+                    <a name="//apple_ref/swift/Element/drawingTreeNodes" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO16VisualBinaryTree12DrawingState16drawingTreeNodesFMS0_FPS_8Renderer_S0_">drawingTreeNodes</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">DrawingState</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO16VisualBinaryTree12DrawingState20doneDrawingTreeNodesFMS0_S0_"></a>
+                    <a name="//apple_ref/swift/Element/doneDrawingTreeNodes" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO16VisualBinaryTree12DrawingState20doneDrawingTreeNodesFMS0_S0_">doneDrawingTreeNodes</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">DrawingState</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO16VisualBinaryTree12DrawingState16drawingTreeLinesFMS0_FPS_8Renderer_S0_"></a>
+                    <a name="//apple_ref/swift/Element/drawingTreeLines" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO16VisualBinaryTree12DrawingState16drawingTreeLinesFMS0_FPS_8Renderer_S0_">drawingTreeLines</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">DrawingState</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO16VisualBinaryTree12DrawingState20doneDrawingTreeLinesFMS0_S0_"></a>
+                    <a name="//apple_ref/swift/Element/doneDrawingTreeLines" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO16VisualBinaryTree12DrawingState20doneDrawingTreeLinesFMS0_S0_">doneDrawingTreeLines</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">DrawingState</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO16VisualBinaryTree12DrawingState13toDrawingGridFTPS_8Renderer_17drawingAttributesVS_21TreeDrawingAttributes_S0_"></a>
+                    <a name="//apple_ref/swift/Method/toDrawingGrid(_:drawingAttributes:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO16VisualBinaryTree12DrawingState13toDrawingGridFTPS_8Renderer_17drawingAttributesVS_21TreeDrawingAttributes_S0_">toDrawingGrid(_:drawingAttributes:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">DrawingState</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO16VisualBinaryTree12DrawingState17toDoneDrawingGridFT_S0_"></a>
+                    <a name="//apple_ref/swift/Method/toDoneDrawingGrid()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO16VisualBinaryTree12DrawingState17toDoneDrawingGridFT_S0_">toDoneDrawingGrid()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">DrawingState</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO16VisualBinaryTree12DrawingState18toDrawingTreeNodesFTPS_8Renderer_17drawingAttributesVS_21TreeDrawingAttributes_S0_"></a>
+                    <a name="//apple_ref/swift/Method/toDrawingTreeNodes(_:drawingAttributes:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO16VisualBinaryTree12DrawingState18toDrawingTreeNodesFTPS_8Renderer_17drawingAttributesVS_21TreeDrawingAttributes_S0_">toDrawingTreeNodes(_:drawingAttributes:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">DrawingState</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO16VisualBinaryTree12DrawingState22toDoneDrawingTreeNodesFT_S0_"></a>
+                    <a name="//apple_ref/swift/Method/toDoneDrawingTreeNodes()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO16VisualBinaryTree12DrawingState22toDoneDrawingTreeNodesFT_S0_">toDoneDrawingTreeNodes()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">DrawingState</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO16VisualBinaryTree12DrawingState18toDrawingTreeLinesFTPS_8Renderer_17drawingAttributesVS_21TreeDrawingAttributes_S0_"></a>
+                    <a name="//apple_ref/swift/Method/toDrawingTreeLines(_:drawingAttributes:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO16VisualBinaryTree12DrawingState18toDrawingTreeLinesFTPS_8Renderer_17drawingAttributesVS_21TreeDrawingAttributes_S0_">toDrawingTreeLines(_:drawingAttributes:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">DrawingState</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO16VisualBinaryTree12DrawingState22toDoneDrawingTreeLinesFT_S0_"></a>
+                    <a name="//apple_ref/swift/Method/toDoneDrawingTreeLines()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO16VisualBinaryTree12DrawingState22toDoneDrawingTreeLinesFT_S0_">toDoneDrawingTreeLines()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">DrawingState</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external">Arseniy Kuznetsov</a>. All rights reserved. (Last updated: 2016-08-25)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

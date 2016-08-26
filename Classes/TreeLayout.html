@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TreeLayout Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/TreeLayout" class="dashAnchor"></a>
+    <a title="TreeLayout Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (100% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        TreeLayout Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CoreGraphicsTreeRenderer.html">CoreGraphicsTreeRenderer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TreeDrawing.html">TreeDrawing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TreeLayout.html">TreeLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TreeNodeRef.html">TreeNodeRef</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UIViewRenderer.html">UIViewRenderer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/TreeNodeEnum.html">TreeNodeEnum</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TreeNodeEnumTraversal.html">TreeNodeEnumTraversal</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/CGContext.html">CGContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/TreeLayoutTopology.html">TreeLayoutTopology</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F16VisualBinaryTree10isBalanceduRxS_10BinaryTreerFxSS">isBalanced(_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/BinarySearchTree.html">BinarySearchTree</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BinaryTree.html">BinaryTree</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DependencyInjectable.html">DependencyInjectable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Drawable.html">Drawable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/QuickLookableBinaryTree.html">QuickLookableBinaryTree</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Renderer.html">Renderer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TraversableBinaryTree.html">TraversableBinaryTree</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TraversalStrategy.html">TraversalStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TreeLayoutBuilder.html">TreeLayoutBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TreeRenderer.html">TreeRenderer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/DefaultTreeDrawingConfig.html">DefaultTreeDrawingConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Grid.html">Grid</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/InOrderTraversalStrategy.html">InOrderTraversalStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LevelOrderTraversalStrategy.html">LevelOrderTraversalStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PostOrderTraversalStrategy.html">PostOrderTraversalStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PreOrderTraversalStrategy.html">PreOrderTraversalStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Rectangle.html">Rectangle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SequenceHelper.html">SequenceHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V16VisualBinaryTree21TreeDrawingAttributes">TreeDrawingAttributes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TreeLayoutBuilderKnuth.html">TreeLayoutBuilderKnuth</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TreeLayoutBuilderReingold.html">TreeLayoutBuilderReingold</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TreeLayoutBuilderWetherell.html">TreeLayoutBuilderWetherell</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>TreeLayout</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">TreeLayout</span><span class="o">&lt;</span><span class="kt">Node</span><span class="p">:</span> <span class="kt"><a href="../Protocols/BinaryTree.html">BinaryTree</a></span><span class="o">&gt;</span><span class="p">:</span> <span class="kt">TreeLayoutTopology</span></code></pre>
+
+                </div>
+              </div>
+            <p>Drawable Tree Layout Model</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC16VisualBinaryTree10TreeLayout7elementwx7Element"></a>
+                    <a name="//apple_ref/swift/Property/element" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC16VisualBinaryTree10TreeLayout7elementwx7Element">element</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">TreeLayout</span><span class="o">&lt;</span><span class="kt">Node</span><span class="p">:</span> <span class="kt"><a href="../Protocols/BinaryTree.html">BinaryTree</a></span><span class="o">&gt;</span><span class="p">:</span> <span class="kt">TreeLayoutTopology</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC16VisualBinaryTree10TreeLayout4leftGSqGS0_x__"></a>
+                    <a name="//apple_ref/swift/Property/left" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC16VisualBinaryTree10TreeLayout4leftGSqGS0_x__">left</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">TreeLayout</span><span class="o">&lt;</span><span class="kt">Node</span><span class="p">:</span> <span class="kt"><a href="../Protocols/BinaryTree.html">BinaryTree</a></span><span class="o">&gt;</span><span class="p">:</span> <span class="kt">TreeLayoutTopology</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC16VisualBinaryTree10TreeLayout5rightGSqGS0_x__"></a>
+                    <a name="//apple_ref/swift/Property/right" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC16VisualBinaryTree10TreeLayout5rightGSqGS0_x__">right</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">TreeLayout</span><span class="o">&lt;</span><span class="kt">Node</span><span class="p">:</span> <span class="kt"><a href="../Protocols/BinaryTree.html">BinaryTree</a></span><span class="o">&gt;</span><span class="p">:</span> <span class="kt">TreeLayoutTopology</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC16VisualBinaryTree10TreeLayout6heightSi"></a>
+                    <a name="//apple_ref/swift/Property/height" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC16VisualBinaryTree10TreeLayout6heightSi">height</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">TreeLayout</span><span class="o">&lt;</span><span class="kt">Node</span><span class="p">:</span> <span class="kt"><a href="../Protocols/BinaryTree.html">BinaryTree</a></span><span class="o">&gt;</span><span class="p">:</span> <span class="kt">TreeLayoutTopology</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC16VisualBinaryTree10TreeLayout17traversalStrategyGSqPMPS_17TraversalStrategy__"></a>
+                    <a name="//apple_ref/swift/Property/traversalStrategy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC16VisualBinaryTree10TreeLayout17traversalStrategyGSqPMPS_17TraversalStrategy__">traversalStrategy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">TreeLayout</span><span class="o">&lt;</span><span class="kt">Node</span><span class="p">:</span> <span class="kt"><a href="../Protocols/BinaryTree.html">BinaryTree</a></span><span class="o">&gt;</span><span class="p">:</span> <span class="kt">TreeLayoutTopology</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC16VisualBinaryTree10TreeLayout12gridUnitSizeV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/gridUnitSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC16VisualBinaryTree10TreeLayout12gridUnitSizeV12CoreGraphics7CGFloat">gridUnitSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">TreeLayout</span><span class="o">&lt;</span><span class="kt">Node</span><span class="p">:</span> <span class="kt"><a href="../Protocols/BinaryTree.html">BinaryTree</a></span><span class="o">&gt;</span><span class="p">:</span> <span class="kt">TreeLayoutTopology</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC16VisualBinaryTree10TreeLayout8logicalXSi"></a>
+                    <a name="//apple_ref/swift/Property/logicalX" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC16VisualBinaryTree10TreeLayout8logicalXSi">logicalX</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">TreeLayout</span><span class="o">&lt;</span><span class="kt">Node</span><span class="p">:</span> <span class="kt"><a href="../Protocols/BinaryTree.html">BinaryTree</a></span><span class="o">&gt;</span><span class="p">:</span> <span class="kt">TreeLayoutTopology</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC16VisualBinaryTree10TreeLayout8logicalYSi"></a>
+                    <a name="//apple_ref/swift/Property/logicalY" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC16VisualBinaryTree10TreeLayout8logicalYSi">logicalY</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">TreeLayout</span><span class="o">&lt;</span><span class="kt">Node</span><span class="p">:</span> <span class="kt"><a href="../Protocols/BinaryTree.html">BinaryTree</a></span><span class="o">&gt;</span><span class="p">:</span> <span class="kt">TreeLayoutTopology</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC16VisualBinaryTree10TreeLayoutcFT8rootNodex12gridUnitSizeV12CoreGraphics7CGFloat_GS0_x_"></a>
+                    <a name="//apple_ref/swift/Method/init(rootNode:gridUnitSize:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC16VisualBinaryTree10TreeLayoutcFT8rootNodex12gridUnitSizeV12CoreGraphics7CGFloat_GS0_x_">init(rootNode:gridUnitSize:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">TreeLayout</span><span class="o">&lt;</span><span class="kt">Node</span><span class="p">:</span> <span class="kt"><a href="../Protocols/BinaryTree.html">BinaryTree</a></span><span class="o">&gt;</span><span class="p">:</span> <span class="kt">TreeLayoutTopology</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC16VisualBinaryTree10TreeLayoutcFT8rootNodex12gridUnitSizeV12CoreGraphics7CGFloat10nodeHeightSi_GS0_x_"></a>
+                    <a name="//apple_ref/swift/Method/init(rootNode:gridUnitSize:nodeHeight:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC16VisualBinaryTree10TreeLayoutcFT8rootNodex12gridUnitSizeV12CoreGraphics7CGFloat10nodeHeightSi_GS0_x_">init(rootNode:gridUnitSize:nodeHeight:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">TreeLayout</span><span class="o">&lt;</span><span class="kt">Node</span><span class="p">:</span> <span class="kt"><a href="../Protocols/BinaryTree.html">BinaryTree</a></span><span class="o">&gt;</span><span class="p">:</span> <span class="kt">TreeLayoutTopology</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external">Arseniy Kuznetsov</a>. All rights reserved. (Last updated: 2016-08-26)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
