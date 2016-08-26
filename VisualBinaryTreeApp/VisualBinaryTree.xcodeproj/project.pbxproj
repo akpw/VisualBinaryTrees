@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571601CF1D6090790031FE69 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571601CB1D6090790031FE69 /* BinaryTree.swift */; };
+		571601D61D60908E0031FE69 /* TreeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571601D41D60908E0031FE69 /* TreeLayout.swift */; };
+		571601DB1D60909E0031FE69 /* TreeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571601D81D60909E0031FE69 /* TreeRenderer.swift */; };
+		571601DC1D60909E0031FE69 /* TreeDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571601D91D60909E0031FE69 /* TreeDrawing.swift */; };
+		571601E11D6090BB0031FE69 /* TreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571601DE1D6090BB0031FE69 /* TreeViewController.swift */; };
+		576C4B421D688B6A007EAB45 /* TreeLayoutBuilderKnuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C4B3E1D688B6A007EAB45 /* TreeLayoutBuilderKnuth.swift */; };
+		576C4B431D688B6A007EAB45 /* TreeLayoutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C4B3F1D688B6A007EAB45 /* TreeLayoutBuilder.swift */; };
+		576C4B441D688B6A007EAB45 /* TreeLayoutBuilderReingold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C4B401D688B6A007EAB45 /* TreeLayoutBuilderReingold.swift */; };
+		576C4B451D688B6A007EAB45 /* TreeLayoutBuilderWetherell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C4B411D688B6A007EAB45 /* TreeLayoutBuilderWetherell.swift */; };
+		57C0AF9A1D6D92B7002429FB /* QuickLookableBInaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AF991D6D92B7002429FB /* QuickLookableBInaryTree.swift */; };
+		57C0AFA21D6D9D23002429FB /* InOrderTraversalStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AF9D1D6D9D23002429FB /* InOrderTraversalStrategy.swift */; };
+		57C0AFA31D6D9D23002429FB /* LevelOrderTraversalStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AF9E1D6D9D23002429FB /* LevelOrderTraversalStrategy.swift */; };
+		57C0AFA41D6D9D23002429FB /* PostOrderTraversalStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AF9F1D6D9D23002429FB /* PostOrderTraversalStrategy.swift */; };
+		57C0AFA51D6D9D23002429FB /* PreOrderTraversalStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AFA01D6D9D23002429FB /* PreOrderTraversalStrategy.swift */; };
+		57C0AFA61D6D9D23002429FB /* TraversalStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AFA11D6D9D23002429FB /* TraversalStrategy.swift */; };
+		57C0AFAA1D6D9D2B002429FB /* TreeNodeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AFA71D6D9D2B002429FB /* TreeNodeEnum.swift */; };
+		57C0AFAB1D6D9D2B002429FB /* TreeNodeEnumWithTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AFA81D6D9D2B002429FB /* TreeNodeEnumWithTraversal.swift */; };
+		57C0AFAC1D6D9D2B002429FB /* TreeNodeRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AFA91D6D9D2B002429FB /* TreeNodeRef.swift */; };
+		57C0AFAE1D6D9D49002429FB /* TraversableBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AFAD1D6D9D49002429FB /* TraversableBinaryTree.swift */; };
+		57C0AFB11D6DC8D6002429FB /* DefaultTreeDrawingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AFB01D6DC8D6002429FB /* DefaultTreeDrawingConfig.swift */; };
+		57C0AFB31D6DD5F2002429FB /* CGContext+Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AFB21D6DD5F2002429FB /* CGContext+Renderer.swift */; };
+		57C0AFB51D6DD62D002429FB /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AFB41D6DD62D002429FB /* Renderer.swift */; };
+		57C0AFB71D6DD6F9002429FB /* Drawables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AFB61D6DD6F9002429FB /* Drawables.swift */; };
+		57C0AFB91D6F1D1A002429FB /* DependencyInjectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AFB81D6F1D1A002429FB /* DependencyInjectable.swift */; };
+		57C9CA331D69E34F0044976B /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9CA321D69E34F0044976B /* Helpers.swift */; };
+		57D25C4F1D58657900136518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D25C4E1D58657900136518 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		571601CB1D6090790031FE69 /* BinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BinaryTree.swift; path = ../../VisualBinaryTrees.playground/Sources/Tree/BinaryTree.swift; sourceTree = "<group>"; };
+		571601D41D60908E0031FE69 /* TreeLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeLayout.swift; path = ../../VisualBinaryTrees.playground/Sources/TreeDrawing/Layout/TreeLayout.swift; sourceTree = "<group>"; };
+		571601D81D60909E0031FE69 /* TreeRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeRenderer.swift; path = ../../VisualBinaryTrees.playground/Sources/TreeDrawing/Renderer/TreeRenderer.swift; sourceTree = "<group>"; };
+		571601D91D60909E0031FE69 /* TreeDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeDrawing.swift; path = ../../VisualBinaryTrees.playground/Sources/TreeDrawing/TreeDrawing.swift; sourceTree = "<group>"; };
+		571601DE1D6090BB0031FE69 /* TreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeViewController.swift; path = ../../VisualBinaryTrees.playground/Sources/Utils/TreeViewController.swift; sourceTree = "<group>"; };
+		576C4B3E1D688B6A007EAB45 /* TreeLayoutBuilderKnuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeLayoutBuilderKnuth.swift; path = ../../VisualBinaryTrees.playground/Sources/TreeDrawing/Layout/Builders/TreeLayoutBuilderKnuth.swift; sourceTree = "<group>"; };
+		576C4B3F1D688B6A007EAB45 /* TreeLayoutBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeLayoutBuilder.swift; path = ../../VisualBinaryTrees.playground/Sources/TreeDrawing/Layout/Builders/TreeLayoutBuilder.swift; sourceTree = "<group>"; };
+		576C4B401D688B6A007EAB45 /* TreeLayoutBuilderReingold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeLayoutBuilderReingold.swift; path = ../../VisualBinaryTrees.playground/Sources/TreeDrawing/Layout/Builders/TreeLayoutBuilderReingold.swift; sourceTree = "<group>"; };
+		576C4B411D688B6A007EAB45 /* TreeLayoutBuilderWetherell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeLayoutBuilderWetherell.swift; path = ../../VisualBinaryTrees.playground/Sources/TreeDrawing/Layout/Builders/TreeLayoutBuilderWetherell.swift; sourceTree = "<group>"; };
+		57C0AF991D6D92B7002429FB /* QuickLookableBInaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuickLookableBInaryTree.swift; path = ../../VisualBinaryTrees.playground/Sources/Tree/QuickLookableBInaryTree.swift; sourceTree = "<group>"; };
+		57C0AF9D1D6D9D23002429FB /* InOrderTraversalStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InOrderTraversalStrategy.swift; path = ../../VisualBinaryTrees.playground/Sources/Tree/Traversals/InOrderTraversalStrategy.swift; sourceTree = "<group>"; };
+		57C0AF9E1D6D9D23002429FB /* LevelOrderTraversalStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LevelOrderTraversalStrategy.swift; path = ../../VisualBinaryTrees.playground/Sources/Tree/Traversals/LevelOrderTraversalStrategy.swift; sourceTree = "<group>"; };
+		57C0AF9F1D6D9D23002429FB /* PostOrderTraversalStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostOrderTraversalStrategy.swift; path = ../../VisualBinaryTrees.playground/Sources/Tree/Traversals/PostOrderTraversalStrategy.swift; sourceTree = "<group>"; };
+		57C0AFA01D6D9D23002429FB /* PreOrderTraversalStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreOrderTraversalStrategy.swift; path = ../../VisualBinaryTrees.playground/Sources/Tree/Traversals/PreOrderTraversalStrategy.swift; sourceTree = "<group>"; };
+		57C0AFA11D6D9D23002429FB /* TraversalStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TraversalStrategy.swift; path = ../../VisualBinaryTrees.playground/Sources/Tree/Traversals/TraversalStrategy.swift; sourceTree = "<group>"; };
+		57C0AFA71D6D9D2B002429FB /* TreeNodeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeNodeEnum.swift; path = ../../VisualBinaryTrees.playground/Sources/Tree/TreeSamples/TreeNodeEnum.swift; sourceTree = "<group>"; };
+		57C0AFA81D6D9D2B002429FB /* TreeNodeEnumWithTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeNodeEnumWithTraversal.swift; path = ../../VisualBinaryTrees.playground/Sources/Tree/TreeSamples/TreeNodeEnumWithTraversal.swift; sourceTree = "<group>"; };
+		57C0AFA91D6D9D2B002429FB /* TreeNodeRef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeNodeRef.swift; path = ../../VisualBinaryTrees.playground/Sources/Tree/TreeSamples/TreeNodeRef.swift; sourceTree = "<group>"; };
+		57C0AFAD1D6D9D49002429FB /* TraversableBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TraversableBinaryTree.swift; path = ../../VisualBinaryTrees.playground/Sources/Tree/TraversableBinaryTree.swift; sourceTree = "<group>"; };
+		57C0AFB01D6DC8D6002429FB /* DefaultTreeDrawingConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultTreeDrawingConfig.swift; path = ../../VisualBinaryTrees.playground/Sources/TreeDrawing/Config/DefaultTreeDrawingConfig.swift; sourceTree = "<group>"; };
+		57C0AFB21D6DD5F2002429FB /* CGContext+Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGContext+Renderer.swift"; path = "../../VisualBinaryTrees.playground/Sources/TreeDrawing/Renderer/CGContext+Renderer.swift"; sourceTree = "<group>"; };
+		57C0AFB41D6DD62D002429FB /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Renderer.swift; path = ../../VisualBinaryTrees.playground/Sources/TreeDrawing/Renderer/Renderer.swift; sourceTree = "<group>"; };
+		57C0AFB61D6DD6F9002429FB /* Drawables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Drawables.swift; path = ../../VisualBinaryTrees.playground/Sources/TreeDrawing/Renderer/Drawables.swift; sourceTree = "<group>"; };
+		57C0AFB81D6F1D1A002429FB /* DependencyInjectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DependencyInjectable.swift; path = ../../VisualBinaryTrees.playground/Sources/Utils/DependencyInjectable.swift; sourceTree = "<group>"; };
+		57C9CA321D69E34F0044976B /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = ../../VisualBinaryTrees.playground/Sources/Utils/Helpers.swift; sourceTree = "<group>"; };
+		57D25C4B1D58657900136518 /* VisualBinaryTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualBinaryTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D25C4E1D58657900136518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = VisualBinaryTree/AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57D25C481D58657900136518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571601BF1D5E0CC90031FE69 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				571601D41D60908E0031FE69 /* TreeLayout.swift */,
+				576C4B3D1D688B12007EAB45 /* Builders */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		571601C01D5E0CD50031FE69 /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				57C0AFB41D6DD62D002429FB /* Renderer.swift */,
+				57C0AFB61D6DD6F9002429FB /* Drawables.swift */,
+				57C0AFB21D6DD5F2002429FB /* CGContext+Renderer.swift */,
+				571601D81D60909E0031FE69 /* TreeRenderer.swift */,
+			);
+			name = Renderer;
+			sourceTree = "<group>";
+		};
+		576C4B3D1D688B12007EAB45 /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				576C4B3F1D688B6A007EAB45 /* TreeLayoutBuilder.swift */,
+				576C4B3E1D688B6A007EAB45 /* TreeLayoutBuilderKnuth.swift */,
+				576C4B411D688B6A007EAB45 /* TreeLayoutBuilderWetherell.swift */,
+				576C4B401D688B6A007EAB45 /* TreeLayoutBuilderReingold.swift */,
+			);
+			name = Builders;
+			sourceTree = "<group>";
+		};
+		57C0AF9B1D6D9D0A002429FB /* Traversals */ = {
+			isa = PBXGroup;
+			children = (
+				57C0AF9D1D6D9D23002429FB /* InOrderTraversalStrategy.swift */,
+				57C0AF9E1D6D9D23002429FB /* LevelOrderTraversalStrategy.swift */,
+				57C0AF9F1D6D9D23002429FB /* PostOrderTraversalStrategy.swift */,
+				57C0AFA01D6D9D23002429FB /* PreOrderTraversalStrategy.swift */,
+				57C0AFA11D6D9D23002429FB /* TraversalStrategy.swift */,
+			);
+			name = Traversals;
+			sourceTree = "<group>";
+		};
+		57C0AF9C1D6D9D11002429FB /* Tree Samples */ = {
+			isa = PBXGroup;
+			children = (
+				57C0AFA71D6D9D2B002429FB /* TreeNodeEnum.swift */,
+				57C0AFA81D6D9D2B002429FB /* TreeNodeEnumWithTraversal.swift */,
+				57C0AFA91D6D9D2B002429FB /* TreeNodeRef.swift */,
+			);
+			name = "Tree Samples";
+			sourceTree = "<group>";
+		};
+		57D25C421D58657900136518 = {
+			isa = PBXGroup;
+			children = (
+				57D25C4E1D58657900136518 /* AppDelegate.swift */,
+				57D25C4D1D58657900136518 /* VisualBinaryTree */,
+				57D25C4C1D58657900136518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57D25C4C1D58657900136518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D25C4B1D58657900136518 /* VisualBinaryTree.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57D25C4D1D58657900136518 /* VisualBinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				571601DE1D6090BB0031FE69 /* TreeViewController.swift */,
+				57D25CC61D5868F500136518 /* Tree */,
+				57D25CC71D5868FB00136518 /* TreeDrawing */,
+				57D25CC81D58690200136518 /* Utils */,
+			);
+			path = VisualBinaryTree;
+			sourceTree = "<group>";
+		};
+		57D25CC61D5868F500136518 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				571601CB1D6090790031FE69 /* BinaryTree.swift */,
+				57C0AF991D6D92B7002429FB /* QuickLookableBInaryTree.swift */,
+				57C0AFAD1D6D9D49002429FB /* TraversableBinaryTree.swift */,
+				57C0AF9C1D6D9D11002429FB /* Tree Samples */,
+				57C0AF9B1D6D9D0A002429FB /* Traversals */,
+			);
+			name = Tree;
+			sourceTree = "<group>";
+		};
+		57D25CC71D5868FB00136518 /* TreeDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				571601BF1D5E0CC90031FE69 /* Layout */,
+				571601C01D5E0CD50031FE69 /* Renderer */,
+				571601D91D60909E0031FE69 /* TreeDrawing.swift */,
+			);
+			name = TreeDrawing;
+			sourceTree = "<group>";
+		};
+		57D25CC81D58690200136518 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				57C0AFB01D6DC8D6002429FB /* DefaultTreeDrawingConfig.swift */,
+				57C0AFB81D6F1D1A002429FB /* DependencyInjectable.swift */,
+				57C9CA321D69E34F0044976B /* Helpers.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57D25C4A1D58657900136518 /* VisualBinaryTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D25C5D1D58657900136518 /* Build configuration list for PBXNativeTarget "VisualBinaryTree" */;
+			buildPhases = (
+				57D25C471D58657900136518 /* Sources */,
+				57D25C481D58657900136518 /* Frameworks */,
+				57D25C491D58657900136518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisualBinaryTree;
+			productName = VisualBinaryTree;
+			productReference = 57D25C4B1D58657900136518 /* VisualBinaryTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57D25C431D58657900136518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Arseniy Kuznetsov";
+				TargetAttributes = {
+					57D25C4A1D58657900136518 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 73TM6WSTY5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 57D25C461D58657900136518 /* Build configuration list for PBXProject "VisualBinaryTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57D25C421D58657900136518;
+			productRefGroup = 57D25C4C1D58657900136518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57D25C4A1D58657900136518 /* VisualBinaryTree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57D25C491D58657900136518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57D25C471D58657900136518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D25C4F1D58657900136518 /* AppDelegate.swift in Sources */,
+				57C0AFAC1D6D9D2B002429FB /* TreeNodeRef.swift in Sources */,
+				57C0AFA21D6D9D23002429FB /* InOrderTraversalStrategy.swift in Sources */,
+				57C0AFAB1D6D9D2B002429FB /* TreeNodeEnumWithTraversal.swift in Sources */,
+				57C0AFB71D6DD6F9002429FB /* Drawables.swift in Sources */,
+				576C4B441D688B6A007EAB45 /* TreeLayoutBuilderReingold.swift in Sources */,
+				571601DB1D60909E0031FE69 /* TreeRenderer.swift in Sources */,
+				57C0AFAA1D6D9D2B002429FB /* TreeNodeEnum.swift in Sources */,
+				576C4B421D688B6A007EAB45 /* TreeLayoutBuilderKnuth.swift in Sources */,
+				57C0AFB91D6F1D1A002429FB /* DependencyInjectable.swift in Sources */,
+				57C0AFA31D6D9D23002429FB /* LevelOrderTraversalStrategy.swift in Sources */,
+				57C0AFA51D6D9D23002429FB /* PreOrderTraversalStrategy.swift in Sources */,
+				571601D61D60908E0031FE69 /* TreeLayout.swift in Sources */,
+				57C0AFAE1D6D9D49002429FB /* TraversableBinaryTree.swift in Sources */,
+				576C4B431D688B6A007EAB45 /* TreeLayoutBuilder.swift in Sources */,
+				57C0AFA41D6D9D23002429FB /* PostOrderTraversalStrategy.swift in Sources */,
+				571601DC1D60909E0031FE69 /* TreeDrawing.swift in Sources */,
+				57C0AFA61D6D9D23002429FB /* TraversalStrategy.swift in Sources */,
+				57C0AFB51D6DD62D002429FB /* Renderer.swift in Sources */,
+				57C9CA331D69E34F0044976B /* Helpers.swift in Sources */,
+				57C0AF9A1D6D92B7002429FB /* QuickLookableBInaryTree.swift in Sources */,
+				571601E11D6090BB0031FE69 /* TreeViewController.swift in Sources */,
+				57C0AFB31D6DD5F2002429FB /* CGContext+Renderer.swift in Sources */,
+				571601CF1D6090790031FE69 /* BinaryTree.swift in Sources */,
+				576C4B451D688B6A007EAB45 /* TreeLayoutBuilderWetherell.swift in Sources */,
+				57C0AFB11D6DC8D6002429FB /* DefaultTreeDrawingConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		57D25C5B1D58657900136518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57D25C5C1D58657900136518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57D25C5E1D58657900136518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 73TM6WSTY5;
+				INFOPLIST_FILE = VisualBinaryTree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akpw.VisualBinaryTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		57D25C5F1D58657900136518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 73TM6WSTY5;
+				INFOPLIST_FILE = VisualBinaryTree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akpw.VisualBinaryTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57D25C461D58657900136518 /* Build configuration list for PBXProject "VisualBinaryTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D25C5B1D58657900136518 /* Debug */,
+				57D25C5C1D58657900136518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D25C5D1D58657900136518 /* Build configuration list for PBXNativeTarget "VisualBinaryTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D25C5E1D58657900136518 /* Debug */,
+				57D25C5F1D58657900136518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57D25C431D58657900136518 /* Project object */;
+}
