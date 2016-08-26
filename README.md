@@ -37,11 +37,19 @@ $ git clone https://github.com/akpw/VisualBinaryTrees
 ```
 
 3) Open the playground in Xcode
-
 ```bash
 $ cd VisualBinaryTrees
-$ open VisualBinaryTrees.playground
+$ open VisualBinaryTrees.playground -a Xcode-beta.app
 ```
+
+4) Optionally, you can also swift to the `VisualBinaryTreeApp` folder and open & run the included sample app:
+
+```bash
+$ cd VisualBinaryTreeApp
+$ open VisualBinaryTree.xcodeproj -a Xcode-beta.app
+```
+
+
 # Requirements
 
 * latest Xcode 8
