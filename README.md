@@ -11,9 +11,12 @@ Visual Binary Trees with Swift 3 Playgrounds
 ## Blogs
 
 ## Features
+* Easy visualization of arbitrary Binary Trees
+* Can be used for trees implemented both as reference types or as Swift enums
+* Multiple visual tree layouts, support for layouts customization
+* A standalone playground, ready to run in Xcode and on the iPad (an embeddable framework version TBD)
 * Written in Swift 3 and Xcode 8
 
-* Easy visualization of Binary Trees in Xcode and on the iPad
 
 ## Docs		
  [Initial docs][docsLink], generated with [jazzy](https://github.com/realm/jazzy) and hosted by [GitHub Pages](https://pages.github.com).
@@ -36,7 +39,7 @@ $ open "VisualBinaryTrees.playground"
 # Requirements
 
 * Xcode 8
-* iOS 10
+* iOS 9 (requires iOS10 to run in the Swift Playgrounds for iPad)
 
 
 [docsLink]:https://akpw.github.io//VisualBinaryTrees/index.html
