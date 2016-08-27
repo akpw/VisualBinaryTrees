@@ -5,8 +5,6 @@ Visual Binary Trees with Swift 3 Playgrounds
 ![License](https://img.shields.io/badge/License-GNU%20GPL-blue.svg)
 
 
-Visual Binary Trees with Swift 3 Playgrounds
-
 ![obj-c](http://www.akpdev.com/images/tree4.png)
 
 
