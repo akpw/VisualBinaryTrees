@@ -13,7 +13,9 @@ public protocol BinaryTree: Equatable {
 
 // Common BinaryTree properties
 extension BinaryTree {
-    public static func ==(lhs: Self, rhs: Self) -> Bool { return lhs.element == rhs.element }
+    public static func ==(lhs: Self, rhs: Self) -> Bool {
+        return (lhs.element == rhs.element) && lhs.left == rhs.left && lhs.right == rhs.right    
+    }
     
     public var count: Int { return (left?.count ?? 0) + 1 + (right?.count ?? 0) }
     

@@ -6,9 +6,9 @@ import UIKit
 /// A Sample Tree implemented as a reference type
 public final class TreeNodeRef<Element: Comparable>: QuickLookableBinaryTree,
                                                      TraversableBinaryTree  {
-    fileprivate(set) public var element: Element
-    fileprivate(set) public var left: TreeNodeRef?
-    fileprivate(set) public var right: TreeNodeRef?
+    public var element: Element
+    public var left: TreeNodeRef?
+    public var right: TreeNodeRef?
     
     // default is in-order traversal
     public var traversalStrategy: TraversalStrategy.Type? = InOrderTraversalStrategy.self

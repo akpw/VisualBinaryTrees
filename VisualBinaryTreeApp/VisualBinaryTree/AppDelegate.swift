@@ -32,10 +32,12 @@ extension AppDelegate {
         print("Tree of height: \(enumTree.height), with \(enumTree.count) elements")
         
         var enumTraversalTree: TreeNodeEnumTraversal = [1,2,3,4,5,6,7,8]
-        enumTraversalTree.traversalStrategy = LevelOrderTraversalStrategy.self
+        enumTraversalTree.traversalStrategy = PostOrderTraversalStrategy.self
         print("Tree of height: \(enumTraversalTree.height), with \(enumTraversalTree.count) elements: \(enumTraversalTree)")
         
-        let randomTree = TreeNodeEnumTraversal(SequenceHelper.randomCharacterSequence(length: 26))
+        var randomTree = TreeNodeEnumTraversal(SequenceHelper.randomCharacterSequence(length: 26))
+        randomTree.traversalStrategy = ZigzagOrderTraversalStrategy.self
+
         let _ = randomTree.quickLookImage
         
         let layoutBuilder = TreeLayoutBuilderReingold()

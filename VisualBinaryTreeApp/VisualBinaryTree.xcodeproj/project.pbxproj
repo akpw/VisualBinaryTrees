@@ -32,6 +32,7 @@
 		57C0AFB71D6DD6F9002429FB /* Drawables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AFB61D6DD6F9002429FB /* Drawables.swift */; };
 		57C0AFB91D6F1D1A002429FB /* DependencyInjectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0AFB81D6F1D1A002429FB /* DependencyInjectable.swift */; };
 		57C9CA331D69E34F0044976B /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9CA321D69E34F0044976B /* Helpers.swift */; };
+		57D232911D71C92400CC6BAA /* ZigzagOrderTraversalStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D232901D71C92400CC6BAA /* ZigzagOrderTraversalStrategy.swift */; };
 		57D25C4F1D58657900136518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D25C4E1D58657900136518 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		57C0AFB61D6DD6F9002429FB /* Drawables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Drawables.swift; path = ../../VisualBinaryTrees.playground/Sources/TreeDrawing/Renderer/Drawables.swift; sourceTree = "<group>"; };
 		57C0AFB81D6F1D1A002429FB /* DependencyInjectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DependencyInjectable.swift; path = ../../VisualBinaryTrees.playground/Sources/Utils/DependencyInjectable.swift; sourceTree = "<group>"; };
 		57C9CA321D69E34F0044976B /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = ../../VisualBinaryTrees.playground/Sources/Utils/Helpers.swift; sourceTree = "<group>"; };
+		57D232901D71C92400CC6BAA /* ZigzagOrderTraversalStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZigzagOrderTraversalStrategy.swift; path = ../../VisualBinaryTrees.playground/Sources/Tree/Traversals/ZigzagOrderTraversalStrategy.swift; sourceTree = "<group>"; };
 		57D25C4B1D58657900136518 /* VisualBinaryTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualBinaryTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D25C4E1D58657900136518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = VisualBinaryTree/AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,11 +112,12 @@
 		57C0AF9B1D6D9D0A002429FB /* Traversals */ = {
 			isa = PBXGroup;
 			children = (
+				57C0AFA11D6D9D23002429FB /* TraversalStrategy.swift */,
 				57C0AF9D1D6D9D23002429FB /* InOrderTraversalStrategy.swift */,
 				57C0AF9E1D6D9D23002429FB /* LevelOrderTraversalStrategy.swift */,
 				57C0AF9F1D6D9D23002429FB /* PostOrderTraversalStrategy.swift */,
 				57C0AFA01D6D9D23002429FB /* PreOrderTraversalStrategy.swift */,
-				57C0AFA11D6D9D23002429FB /* TraversalStrategy.swift */,
+				57D232901D71C92400CC6BAA /* ZigzagOrderTraversalStrategy.swift */,
 			);
 			name = Traversals;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				57C0AFA61D6D9D23002429FB /* TraversalStrategy.swift in Sources */,
 				57C0AFB51D6DD62D002429FB /* Renderer.swift in Sources */,
 				57C9CA331D69E34F0044976B /* Helpers.swift in Sources */,
+				57D232911D71C92400CC6BAA /* ZigzagOrderTraversalStrategy.swift in Sources */,
 				57C0AF9A1D6D92B7002429FB /* QuickLookableBInaryTree.swift in Sources */,
 				571601E11D6090BB0031FE69 /* TreeViewController.swift in Sources */,
 				57C0AFB31D6DD5F2002429FB /* CGContext+Renderer.swift in Sources */,
