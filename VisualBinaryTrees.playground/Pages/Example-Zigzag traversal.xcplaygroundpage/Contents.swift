@@ -1,7 +1,10 @@
 /*:
  - example:
  [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)
+
+ [Previous Page](@previous)
  */
+
 import Foundation
 
 var tree = TreeNodeEnumTraversal(SequenceHelper.randomCharacterSequence(length: 14))
@@ -16,10 +19,11 @@ tree.traversalStrategy = ZigzagOrderTraversalStrategy.self
 showInLiveView(rootNode: tree)
 
 /*:
- > You can see live view traversal visualisation via:
+ > In Xcode, you can see live view traversal visualisation via:
  
  ![Show Live View](showliveview.png)
- 
+*/
+/*:
  [Previous Page](@previous)
 */
 

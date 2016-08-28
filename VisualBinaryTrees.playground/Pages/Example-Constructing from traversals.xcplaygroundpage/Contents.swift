@@ -1,8 +1,8 @@
 /*:
  - example:
   [Constructing a Binary Tree from in-order and post-order traversals](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)
- 
- [Next Page](@next) 
+
+ [Next Page](@next)
  */
 import Foundation
 
@@ -25,5 +25,7 @@ let reconstructedTree = TreeBuilder.buildTree(inOrder: inOrder, postOrder: postO
 assert(originalTree == reconstructedTree)
 
 
-//: [Previous Page](@previous)
+/*:
+ [Previous Page](@previous)
+ */
 

@@ -3,7 +3,7 @@
  ## Sample tree visualisations
  
  > This playground and its usage is described in details in the following [blog series](http://www.akpdev.com/articles/2016/08/26/BinaryTreesPlayground.html) -- keep tuned for more updates.
- 
+
  [Next Page](@next)
  */
 // Sample reference type tree
@@ -31,10 +31,12 @@ showInLiveView(rootNode: randomTree)
 
 
 /*:
- > You can see live view traversals visualisation via:
+ > In Xcode, you can see live view traversals visualisation via:
  
  ![Show Live View](showliveview.png)
  */
-
+/*:
+ [Next Page](@next)
+ */
 
 
