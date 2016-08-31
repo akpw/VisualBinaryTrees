@@ -16,8 +16,8 @@ Visual Binary Trees with Swift 3 Playgrounds
 ## Features
 * Effortless visualization of arbitrary Binary Trees, along with their (pluggable) traversals
 * Works with trees implemented both as reference types and as Swift enums
-* Optimal visual tree layout in O(n) time
-* Supports layouts customization 
+* By default, builds Optimal Tree Layout in O(n) time
+* Supports multiple tree layouts and various drawing configurations
 * A standalone playground with practical examples, ready to run in Xcode and in [Swift Playgrounds for iPad](https://www.apple.com/swift/playgrounds/)
 * Written in latest Swift 3 / Xcode 8
 
