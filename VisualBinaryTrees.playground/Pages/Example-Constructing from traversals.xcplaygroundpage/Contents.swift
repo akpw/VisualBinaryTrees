@@ -3,6 +3,8 @@
   [Constructing a Binary Tree from in-order and post-order traversals](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)
 
  [Next Page](@next)
+ 
+ [Previous Page](@previous)
  */
 import Foundation
 
@@ -27,6 +29,8 @@ assert(originalTree == reconstructedTree)
 
 
 /*:
- [Previous Page](@previous)
+  [Next Page](@next)
+ 
+  [Previous Page](@previous)
  */
 

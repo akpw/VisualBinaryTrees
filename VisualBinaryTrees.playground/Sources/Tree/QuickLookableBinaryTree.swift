@@ -20,6 +20,9 @@ extension QuickLookableBinaryTree {
     public var quickLookObject: PlaygroundQuickLook? {
         return customPlaygroundQuickLook
     }
+    public func debugQuickLookObject() -> Any? {
+        return quickLookView(self)
+    }
     
     /// Visualization as an image
     public var quickLookImage: UIImage? {
