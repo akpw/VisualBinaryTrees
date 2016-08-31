@@ -15,10 +15,11 @@ print("Input post-order: \(postOrder)")
 
 /*:
  * callout(Exercise):
- Given the `inOrder` and `postOrder` arrays, re-construct the originalTree.
+ Given the `inOrder` and `postOrder` traversals, re-construct the originalTree
  */
-// See solution in this playground page's sources
-// The tree quicklook helps immediately see what was constructed, and compare it with the originalTree
+// Solution:
+// See `TreeBuilder` in this PlaygroundPage's sources.
+// The tree quicklook shows what was constructed, so it can be visually compared with the originalTree
 let reconstructedTree = TreeBuilder.buildTree(inOrder: inOrder, postOrder: postOrder)
 
 // test

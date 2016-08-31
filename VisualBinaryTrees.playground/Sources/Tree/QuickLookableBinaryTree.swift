@@ -7,6 +7,8 @@ import UIKit
 public protocol QuickLookableBinaryTree: BinaryTree, CustomPlaygroundQuickLookable {
     var quickLookView: (_ rootNode: Self) -> UIView { get }
 }
+
+/// CustomPlaygroundQuickLookable
 extension QuickLookableBinaryTree {
     /// Playground quick look
     public var customPlaygroundQuickLook: PlaygroundQuickLook {
@@ -14,9 +16,9 @@ extension QuickLookableBinaryTree {
         return PlaygroundQuickLook(reflecting: treeView)
     }
 
-    /// Xcode debugger visualization
-    public func debugQuickLookObject() -> Any? {
-        return quickLookImage
+    /// Xcode debugger quick look
+    public var quickLookObject: PlaygroundQuickLook? {
+        return customPlaygroundQuickLook
     }
     
     /// Visualization as an image
@@ -30,10 +32,13 @@ extension QuickLookableBinaryTree {
         guard let image = UIGraphicsGetImageFromCurrentImageContext() else { return nil }
         return image
     }
-    
+}
+
+/// Default Visual Tree Config
+extension QuickLookableBinaryTree {
     /// Configures visual tree representation
     public var quickLookView: (Self) -> UIView {
         // Default Tree View configuration
         return DefaultTreeDrawingConfig.configureTreeView
-    }
+    }    
 }

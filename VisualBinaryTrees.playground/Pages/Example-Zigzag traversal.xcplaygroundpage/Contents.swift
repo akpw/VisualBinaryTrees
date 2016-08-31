@@ -11,15 +11,20 @@ var tree = TreeNodeEnumTraversal(SequenceHelper.randomCharacterSequence(length: 
 
 /*:
  * callout(Exercise):
- Given a binary tree, implement its zigzag level order traversal
+ Given a binary tree, implement Zigzag-order traversal
  */
+// ...
+// ...
 
-// See solution in the playground sources
+// Solution:
+// See `ZigzagOrderTraversalStrategy` in the Playground's sources
 tree.traversalStrategy = ZigzagOrderTraversalStrategy.self
+
+// Now let's check this traversal in the Live View:
 showInLiveView(rootNode: tree)
 
 /*:
- > In Xcode, you can see live view traversal visualisation via:
+ > In Xcode, you can see live view traversal visualisations via:
  
  ![Show Live View](showliveview.png)
 */
