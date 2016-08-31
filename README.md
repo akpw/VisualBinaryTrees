@@ -5,19 +5,19 @@ Visual Binary Trees with Swift 3 Playgrounds
 ![License](https://img.shields.io/badge/License-GNU%20GPL-blue.svg)
 
 
-Visual Binary Trees with Swift 3 Playgrounds
+![obj-c](http://www.akpdev.com/images/tree4.png)
 
 
 ## Blogs
 * [Visual Binary Trees with Swift 3 Playgrounds: Introduction](http://www.akpdev.com/articles/2016/08/26/BinaryTreesPlayground.html)
-* [Visual Binary Trees with Swift 3 Playgrounds, Part I](http://www.akpdev.com/articles/2016/08/26/BinaryTreesPlayground-Part-I.html)
+* [Visual Binary Trees with Swift 3 Playgrounds, Part I: QuickLook-able Binary Tree with Pluggable Traversals](http://www.akpdev.com/articles/2016/08/26/BinaryTreesPlayground-Part-I.html)
 
 
 ## Features
-* Easy visualization of arbitrary Binary Trees
+* Effortless visualization of arbitrary Binary Trees, along with their (pluggable) traversals
 * Works with trees implemented both as reference types and as Swift enums
 * Multiple visual tree layouts, support for layouts customization
-* A standalone playground, ready to run in Xcode and in [Swift Playgrounds for iPad](https://www.apple.com/swift/playgrounds/)
+* A standalone playground with practical examples, ready to run in Xcode and in [Swift Playgrounds for iPad](https://www.apple.com/swift/playgrounds/)
 * Written in latest Swift 3 / Xcode 8
 
 ## TODOs
