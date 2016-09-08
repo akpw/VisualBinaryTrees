@@ -147,7 +147,7 @@ fileprivate extension TreeLayout {
             extras[TreeLayoutExtrasKey.xMod] = newValue
         }
     }
-    /// Threads help avoid traversing (lots of) the contour nodes that are not in direct parent/child relashinship,
+    /// Threads help avoid traversing (lots of) the contour nodes that are not in direct parent/child relationship,
     /// via creating links between these nodes
     var contourThread: TreeLayout? {
         get {

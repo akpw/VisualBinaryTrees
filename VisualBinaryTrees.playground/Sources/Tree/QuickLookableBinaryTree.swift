@@ -17,10 +17,10 @@ extension QuickLookableBinaryTree {
     }
 
     /// Xcode debugger quick look
-    public var quickLookObject: PlaygroundQuickLook? {
+    public var quickLookObject: PlaygroundQuickLook?  {
         return customPlaygroundQuickLook
     }
-    public func debugQuickLookObject() -> Any? {
+    public func debugQuickLookObject() -> AnyObject? {
         return quickLookView(self)
     }
     

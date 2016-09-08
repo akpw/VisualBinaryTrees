@@ -13,7 +13,6 @@ public struct TreeLayoutBuilderWetherell: TreeLayoutBuilder {
         buildLayout(treeLayout: treeLayout)
         return treeLayout
     }
-    
     // MARK: - Private
     private var xCounters = [Int]()
     private mutating func buildLayout<Node: BinaryTree>(treeLayout: TreeLayout<Node>, depth: Int = 0) {

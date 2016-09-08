@@ -10,8 +10,8 @@ Visual Binary Trees with Swift 3 Playgrounds
 
 ## Blogs
 * [Visual Binary Trees with Swift 3 Playgrounds: Introduction](http://www.akpdev.com/articles/2016/08/26/BinaryTreesPlayground.html)
-* [Visual Binary Trees with Swift 3 Playgrounds, Part I: QuickLook-able Binary Tree with Pluggable Traversals](http://www.akpdev.com/articles/2016/08/26/BinaryTreesPlayground-Part-I.html)
-
+* [Part I: QuickLook-able Binary Tree with Pluggable Traversals](http://www.akpdev.com/articles/2016/08/26/BinaryTreesPlayground-Part-I.html)
+* [Part II: The Drawing Architecture, Customization, and Tree Layouts](http://www.akpdev.com/articles/2016/09/08/BinaryTreesPlayground-Part-II.html)
 
 ## Features
 * Effortless visualization of arbitrary Binary Trees, along with their (pluggable) traversals

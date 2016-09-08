@@ -8,18 +8,16 @@ import UIKit
 /// Runs in O(n) time.
 public struct TreeLayoutBuilderKnuth: TreeLayoutBuilder {
     public mutating func buildLayout<Node: BinaryTree>
-        (rootNode: Node, gridUnitSize: CGFloat) -> TreeLayout<Node> {
+                            (rootNode: Node, gridUnitSize: CGFloat) -> TreeLayout<Node> {
         xCounter = 0
         let treeLayout = TreeLayout<Node>(rootNode: rootNode, gridUnitSize: gridUnitSize)
         buildLayout(treeLayout: treeLayout)
-        
         return treeLayout
     }
-    
     // MARK: - Private
     private var xCounter = 0
     private mutating func buildLayout<Node: BinaryTree>
-        (treeLayout: TreeLayout<Node>, depth: Int = 0) {
+                            (treeLayout: TreeLayout<Node>, depth: Int = 0) {
         if let leftLayout = treeLayout.left {
             buildLayout(treeLayout: leftLayout, depth: depth + 1)
         }

@@ -13,15 +13,12 @@ public final class TreeLayout<Node: BinaryTree>: TreeLayoutTopology {
     public var traversalStrategy: TraversalStrategy.Type?
     
     private(set) public var gridUnitSize: CGFloat
-    
-    public var logicalX = -1
-    public var logicalY = -1
+    public var logicalX = -1, logicalY = -1
     
     convenience public init(rootNode: Node, gridUnitSize: CGFloat) {
         let rootHeight = rootNode.height
         self.init(rootNode: rootNode, gridUnitSize: gridUnitSize, nodeHeight: rootHeight)
     }
-    
     public init(rootNode: Node, gridUnitSize: CGFloat, nodeHeight: Int) {
         height = nodeHeight
         self.element = rootNode.element
@@ -30,10 +27,8 @@ public final class TreeLayout<Node: BinaryTree>: TreeLayoutTopology {
         switch rootNode {
         case let traversableNode as TraversableBinaryTree:
             self.traversalStrategy = traversableNode.traversalStrategy
-        default:
-            break
+        default: break
         }
-
         if let left = rootNode.left {
             self.left = TreeLayout(rootNode: left,
                                          gridUnitSize: gridUnitSize,
@@ -45,7 +40,7 @@ public final class TreeLayout<Node: BinaryTree>: TreeLayoutTopology {
                                           nodeHeight: nodeHeight - 1)
         }
     }
-    // internal storage for var used by builders
+    // internal storage used by builders
     internal var extras: Dictionary<String, Any> = [:]
 }
 
